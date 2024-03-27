@@ -1,0 +1,109 @@
+/*----------------------------- FONT */
+    
+.home-intro span{
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.home-intro p{
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 2px;
+    color: black;
+}
+
+.about-me-div, p{
+    font-size: 0.9rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.home-content-three h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    margin: 0px;
+    font-weight: 700;
+    color: black;
+}
+
+.info-div, p{
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 2px;
+    color: black;
+}
+
+
+/*------------------------------ CONTAINER */
+
+.home-one-container{
+    width: 100%;
+    height: auto;
+    padding: 150px 0px 0px 0px;
+}
+
+.home-content-one{
+    width: 85%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.home-intro{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.home-content-two{
+    width: 85%;
+    height: auto;
+    margin-bottom: 5vw;
+}
+
+.home-content-three{
+    width: 85%;
+    margin-bottom: 80px;
+}
+
+.about-me-div{
+    width: 100%;
+    height: auto;
+}
+
+/*------------------------------- OTHERS */
+
+.cvclass{
+    padding: 7px 15px;
+    border: 1px solid rgb(99, 99, 99);
+    border-radius: 25px;
+}
+.cv-div{
+    width: auto;
+    height: inherit;
+}
+
+.bar{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(182, 182, 182);
+    margin-bottom: 30px;
+}
+
+.profile-image{
+    width: 60%;
+    height: 55vw;
+    border-radius: 15px;
+}
+
+.info-div{
+    width: 60%;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+
+.para-two{
+    margin-top: 2vw;
+}

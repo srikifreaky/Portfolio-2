@@ -1,0 +1,184 @@
+@media screen and (max-width: 900px) {
+    #menu-div{
+        display: block;
+    }
+
+    #navlins{
+        display: none;
+    }
+
+    #coding-skills-section{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #web-skills-section{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #tech-skills-section{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    #coding{
+        width: 100%;
+        height: 60vw;
+    }
+
+    #web{
+        width: 100%;
+        height: 60vw;
+    }
+
+    #tech{
+        width: 100%;
+        height: 60vw;
+    }
+
+    #skill-desc-one{
+        font-size: 3vw;
+    }
+
+    #skill-coding span{
+        font-size: 2vw;
+    }
+
+    #skill-desc-two{
+        font-size: 3vw;
+    }
+
+    #skill-web span{
+        font-size: 2vw;
+    }
+
+    #skill-desc-three{
+        font-size: 3vw;
+    }
+
+    #skill-tech span{
+        font-size: 2vw;
+    }
+
+    .cvclass{
+        display: none;
+    }
+
+    #big-projects{
+        width: 100%;
+    }
+
+    #fitweb-container{
+        width: 100%;
+    
+    }
+
+    #fitweb-image{
+        width: 100%;
+        height: 50vw;
+    }
+
+    #project-name-one span{
+        font-size: 3vw;
+    }
+
+    #project-name-one p{
+        font-size: 1.8vw;
+    }
+
+    #project-name-two span{
+        font-size: 3vw;
+    }
+
+    #project-name-two p{
+        font-size: 1.8vw;
+    }
+
+    #nlp{
+        width: 100%;
+        height: 50vw;
+    }
+
+    #small-projects{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #construction-image{
+        width: 100%;
+        height: 50vw;
+    }
+
+    #project-name-three span{
+        font-size: 3vw;
+    }
+
+    #project-name-three p{
+        font-size: 1.8vw;
+    }
+
+    #portfolio-image{
+        width: 100%;
+        height: 50vw;
+    }
+
+    #project-name-four span{
+        font-size: 3vw;
+    }
+
+    #project-name-four p{
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    #profile-image{
+        width: 85%;
+        height: 80vw;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #info-div{
+        width: 100%;
+    }
+    .para-one{
+        font-size: 2.7vw;
+        margin-bottom: 30px;
+    }
+    .para-two{
+        font-size: 2.7vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #profile-image{
+        width: 100%;
+        height: 95vw;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    #profile-image{
+        width: 100%;
+        height: 95vw;
+    }
+
+    #nav-email{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    #email{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #slidercontent{
+        width: 100%;
+    }
+}

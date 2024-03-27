@@ -1,0 +1,58 @@
+/*------------------------------------------------------- FONTS */
+.navbar-one-one span{
+    font-family: "Poppins", sans-serif;
+    font-size: calc(0.6vw + 1.2rem);
+    font-weight: 400;
+    color: #000000;
+    margin: 0px;
+}
+
+.navbar-one-one a{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0vw 1.2vw;
+    color: black;
+}
+
+.navbar-one-one p{
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding: 0vw 1vw;
+    margin: 0px;
+}
+
+
+
+/*------------------------------------------------------- CONTAINER */
+
+body{
+    background-color: rgb(237, 237, 233);
+}
+
+.navbar-main{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid rgb(94, 94, 94);
+    position: fixed;
+    top: 0px;
+    background-color: rgb(240, 240, 235);
+    z-index: 3;
+}
+
+.navbar-one-one{
+    width: 90%;
+    padding-top: 5px;
+}
+
+
+
+
+/*------------------------------------------------------- ELEMENTS */
+
+.menu-div{
+    cursor: pointer;
+    display: none;
+}

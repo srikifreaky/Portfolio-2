@@ -1,0 +1,79 @@
+/*----------------------------- PROPERTIES */
+
+
+/*----------------------------- FONT */
+
+.contact-one span{
+    font-size: calc(2.5vw + 0.8rem);
+    font-family: "Poppins", sans-serif;
+    color: rgb(209, 209, 209);
+}
+
+.contact-two p a{
+    font-size: calc(0.8vw + 0.8rem);
+    font-family: "Poppins", sans-serif;
+    color: rgb(95, 95, 95);
+    transition: color 0.5s ease-in-out;
+}
+
+.contact-two,span a{
+    font-size: calc(0.5vw + 0.4rem);
+    font-family: "Poppins", sans-serif;
+    color: rgb(95,95,95);
+    transition: color 0.5s ease-in-out;
+}
+
+.contact-two p:hover a{
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease-in-out;
+}
+
+.contact-two,span:hover a{
+    color: rgb(255, 255, 255);
+    transition: color 0.5s ease-in-out;
+}
+
+h2{
+    color: rgb(237,237,233);
+}
+
+
+/*------------------------------ CONTAINER */
+
+.contact-one-container{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+}
+
+.contact-main-container{
+    width: 97%;
+    height: auto;
+    background-color: black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 20px 0px 0px 0px;
+}
+
+.contact-main{
+    width: 87%;
+    height: auto;
+}
+
+.contact-one{
+    width: 60%;
+    height: 25vw;
+}
+
+.contact-two{
+    width: 40%;
+    height: 25vw;
+}
+
+
+/*------------------------------- OTHERS */
+
+.copyright{
+    width: 100%;
+    height: auto;
+}

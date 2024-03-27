@@ -1,0 +1,125 @@
+/*----------------------------- FONT */
+
+.project-name span{
+    font-family: "Poppins", sans-serif;
+    font-size: calc(0.5vw + 0.4rem);
+    font-weight: bold;
+    color: black;
+}
+
+.project-desc,p {
+    font-family: "Poppins", sans-serif;
+    font-size: calc(0.5vw + 0.3rem);
+    color: rgb(143, 143, 143);
+    margin: 0px;
+    transition: color 0.5s ease;
+}
+
+.projects-one-container h2{
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;
+    margin: 0px;
+    font-weight: 700;
+}
+
+/*------------------------------ CONTAINER */
+
+.projects-one-container{
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+}
+
+.projects-one{
+    width: 85%;
+    height: auto;
+}
+
+.project-two{
+    width: 100%;
+    height: auto;
+}
+
+.big-projects{
+    width: 60%;
+    height: auto;
+}
+
+.small-projects{
+    width: 40%;
+    height: auto;
+    transform: translateY(-7vw);
+}
+
+.big-project-list-container{
+    width: 90%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.project-name{
+    width: 80%;
+    height: auto;
+}
+
+.portfolio-image{
+    width: 100%;
+}
+
+
+/*------------------------------- OTHERS */
+
+.line{
+    width: 80%;
+    height: 3px;
+    background-color: rgb(175, 175, 175);
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.line-animation{
+    width: 100%;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transform: translateX(-100%);
+    transition: transform 0.5s ease;
+}
+
+.project-image{
+    width: 100%;
+    height: 30vw;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: border-radius 0.4s ease;
+}
+
+.nlp-image{
+    width: 100%;
+    height: 40vw;
+}
+
+.construction-image{
+    width: 100%;
+    height: 20vw;
+}
+
+
+
+/*----------------------------------------------- EFFECTS */
+
+.big-project-list-container:hover .line-animation{
+    transition: transform 0.4s ease;
+    transform: translateX(0px);
+}
+
+.big-project-list-container:hover p{
+    transition: color 0.5s ease;
+    color: black;
+}
+
+
+.big-project-list-container:hover .project-image{
+    transition: border-radius 0.4s ease;
+    border-radius: 30px;
+}
