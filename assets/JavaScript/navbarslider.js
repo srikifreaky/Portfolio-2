@@ -15,6 +15,9 @@ navcontent_one.style.opacity = '0';
 navcontent_two.style.opacity = '0';
 
 let prevScrollPos = window.scrollY
+if(prevScrollPos > 10) {
+    navbar.style.top = "0";
+}
 window.addEventListener('scroll', function() 
 {
     let currentScrollPos = window.scrollY
